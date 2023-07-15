@@ -1,0 +1,51 @@
+.ClassContainerGeneralQuienesSomos {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ClassQuienesSomos {
+    margin-top: 50px;
+    background-color: #00aeef;
+    color: white;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.ClassSeccionP {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.p2 {
+    margin-left: 10px;
+}
+
+.ImgQuienesSomos img {
+    height: 640px;
+}
+
+.UltPrrf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 50px;
+}
+
+.Up2 {
+    width: 80%;
+    flex-direction: column;
+    padding: 5px;
+}

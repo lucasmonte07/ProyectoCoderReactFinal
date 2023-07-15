@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Iphone 11 PRO",
+        "price": 480.0,
+        "stock": 5,
+        "description": "El mejor iphone 11",
+        "category": "technologia ",
+        "img": "https://res.cloudinary.com/dhmyrfucq/image/upload/v1685556082/iphone2_yl68eb.png"
+    },
+    {
+        "id": 2,
+        "title": "Notebook Dell Pro ",
+        "price": 389.999,
+        "stock": 2,
+        "description": "Comodidad a tu alcance",
+        "category": "technologia ",
+        "img": "https://res.cloudinary.com/dhmyrfucq/image/upload/v1687443489/0000000000415428733910415428_400x400_sqyumt.png"
+    },
+    {
+        "id": 3,
+        "title": "Auriculares Logitech",
+        "price": 7800,
+        "stock": 4,
+        "description": "Los mejores auriculares",
+        "category": "technologia ",
+        "img": "https://res.cloudinary.com/dhmyrfucq/image/upload/v1687443468/000000000041517589568h390-gallery-rose-1-1_400x400_d3vvmt.png"
+    },
+    {
+        "id": 4,
+        "title": "Parlantes JBL",
+        "price": 79.999,
+        "stock": 7,
+        "description": "El mejor iphone 11",
+        "category": "technologia ",
+        "img": "https://res.cloudinary.com/dhmyrfucq/image/upload/v1685556082/iphone2_yl68eb.png"
+    }
+]

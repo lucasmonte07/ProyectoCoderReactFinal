@@ -1,0 +1,19 @@
+.ContainerBarraNav {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 38px;
+    font-size: 16px;
+}
+
+.ContainerBarraNav a {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.prueba{
+    text-decoration: none;
+    color: white;
+}

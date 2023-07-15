@@ -1,0 +1,20 @@
+.Icons{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 34px;
+    margin-right: 80px;
+    font-size: 18px;
+    gap: 5px;
+}
+
+.ClassCartWidtget {
+    display: flex;
+    gap: 8px;
+}
+
+.ClassFormuCart {
+    text-decoration: none;
+    color: black;
+}
+

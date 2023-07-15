@@ -1,0 +1,125 @@
+
+.ClassGeneral {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-informacion {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    border: solid 3px rgb(255, 255, 255) ;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    height: 80px;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: black;
+}
+
+
+.container-informacion {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/*********************************/
+
+.box1 {
+    font-size: 18px;
+    height: 90px;
+    padding: 20px;
+    white-space: nowrap;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.CreditCard {
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.PromocionesBancarias {
+    cursor: pointer;
+    color: #00aeef;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+/************************************/
+/* box 2 */ 
+
+.box2 {
+    font-size: 18px;
+    height: 90px;
+    padding: 20px;
+    white-space: nowrap;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.gg-shield {
+    height: 54px;
+    width: 48px;
+}
+
+.ComprasProtegidas {
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.Informacion { 
+    color: #00aeef;
+    font-size: 14px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+/************************************/
+
+/* box 3 */ 
+
+.box3 {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 90px;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.enviosDomicilio {
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.calcularEnvios {
+    cursor: pointer;
+    color: #00aeef;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+/****************************************/
+
+/* box 4 */ 
+
+
+.box4 {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 90px;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.comprasEfectivo {
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.condiciones {
+    cursor: pointer;
+    color: #00aeef;
+    font-size: 14px;
+    margin-top: -1px;
+}

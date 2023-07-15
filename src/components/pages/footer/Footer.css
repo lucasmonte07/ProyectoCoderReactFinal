@@ -1,0 +1,64 @@
+
+.ContainerGeneralFooter1 {
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    height: 350px;
+}
+
+
+
+.ContainerA{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.ContainerA p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ContainerB {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 230px;
+}
+
+.ContainerB p {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ContainerC {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.ContainerC p {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ContainerD{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.ContainerD  p{
+    font-size: 15px;
+    cursor: pointer;
+}
+

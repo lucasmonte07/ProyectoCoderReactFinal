@@ -1,0 +1,44 @@
+.slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*  el animation scroll es para activar el efecto de traslación   */
+/* -webkit-animation es una especie de seguro para que el efecto lo puedan renderizar todos los browser */
+
+
+.slider .slider-track {
+    display: flex;
+    animation: scroll 40s linear infinite ;
+    -webkit-animation: scroll 20s linear infinite;    
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 200px;
+}
+
+.slide img {
+    height: 120px;
+}
+
+
+/* El keyframe es una forma de autorizar los efectos de este caso   */
+/* Colocamos el scroll para que sepa que efecto será  */ 
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px *7));
+        transform: translateX(calc(-200px *7))
+    }
+}
+

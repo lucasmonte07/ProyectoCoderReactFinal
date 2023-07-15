@@ -1,0 +1,24 @@
+.ContainerGeneralB {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    
+}
+
+.ContainerGeneral2{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+}
+    
+
+hr {
+    color: aqua;
+    width: 100%;
+
+}

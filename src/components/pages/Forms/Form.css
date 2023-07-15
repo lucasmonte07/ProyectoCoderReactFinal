@@ -1,0 +1,110 @@
+.Classh2Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    color: #444444;
+    font-size: 22px;
+}
+
+.ClassFormGeneral {
+    /* ahora agregamos algo */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* nombre  */
+
+.ClassNmbTitu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.ClassNmbTitu label {
+    margin: 5px;
+    color: #444444;
+}
+
+.ClassNmbTitu input {
+    width: 1100px;
+    height: 32px;
+    border-radius: 5px;
+    border: solid 3px white;
+    background-color: #ffffff;
+}
+
+/* apellido */ 
+
+.ClassApeTitu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.ClassApeTitu label {
+    margin: 5px;
+    color: #444444;
+}
+
+.ClassApeTitu input {
+    width: 1100px;
+    height: 32px;
+    border-radius: 5px;
+    border: solid 3px white;
+    background-color: #ffffff;
+}
+
+
+/********************************/
+
+.ClassDomiLocalCod {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    gap: 30px;
+    color: #444444;
+}
+
+.ClassDomiLocalCod input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 3px white;
+    background-color: #ffffff;
+}
+
+/* ************** */
+
+.ClassDatosExtras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: #444444;
+    font-size: 22px;
+}
+
+.ClassContainerSend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #dad9d9;
+    font-size: 22px;
+    height: 150px;
+    width: 100%;
+}
+
+.ClassContainerSend button {
+    font-size: 20px;
+    color: #444444;
+    border: solid 3px #00aeef;
+    width: 300px;
+    background-color: #00aeef;
+    border-radius: 5px;
+    cursor: pointer;
+}

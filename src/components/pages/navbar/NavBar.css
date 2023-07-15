@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ContainerNavBar {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    height: 100px;
+    width: 100%;
+}
+
+.ClassLogo {
+    margin-left: 150px;
+    width: 310px;
+    margin-top: 10px;
+}
+
+.ClassLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Container {
+    display: flex;
+    margin-top: 6px;
+    margin-right: 540px;
+}
+
+.Container input {
+    border-radius: 5px;
+    border: solid 3px white;
+    margin: 25px;
+    height: 32px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+
+.ClassBtn {
+    font-size: 25px;
+    margin-top: 27px;
+    margin-right: 8px;
+}
+
+/*
+.ClassA a:hover {
+    transform: scale(1.2);
+}
+
+.ClassA a:hover {
+    transition: all .5s ease;
+}
+*/
+/*
+.algo:hover {
+    transform: scale(1.2);
+}
+
+.algo:hover {
+    transition: all .5s ease;
+}
+*/
+.ContainerNavBar {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
